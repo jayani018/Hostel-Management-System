@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="623.0" prefWidth="954.0" style="-fx-background-color: #00b894;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse62.hibernet.controller.LogInFormController">
+   <children>
+      <ImageView fitHeight="655.0" fitWidth="976.0" layoutX="-5.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assests/image/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="501.0" fitWidth="351.0" layoutX="317.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true" >
+         <image>
+            <Image url="@assests/image/background-gradient-lights.jpg" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
