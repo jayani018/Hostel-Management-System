@@ -42,7 +42,7 @@
                   <InnerShadow />
                </effect>
             </Button>
-            <Text layoutX="91.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rooms">
+            <Text layoutX="60.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registration">
                <font>
                   <Font size="27.0" />
                </font>
