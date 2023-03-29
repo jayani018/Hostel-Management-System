@@ -13,7 +13,7 @@ public class AppInitializer extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource(""))));
+primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("lk/ijse/gdse62/hibernet/view/LogInForm.fxml"))));
         primaryStage.show();
     }
 }
