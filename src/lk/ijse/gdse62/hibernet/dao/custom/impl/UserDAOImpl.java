@@ -1,4 +1,6 @@
 package lk.ijse.gdse62.hibernet.dao.custom.impl;
 
-public class UserDAOImpl {
+import lk.ijse.gdse62.hibernet.dao.custom.UserDAO;
+
+public class UserDAOImpl implements UserDAO {
 }

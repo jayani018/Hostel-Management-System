@@ -1,4 +1,6 @@
 package lk.ijse.gdse62.hibernet.dao.custom.impl;
 
-public class RoomDAOImpl {
+import lk.ijse.gdse62.hibernet.dao.custom.RoomDAO;
+
+public class RoomDAOImpl implements RoomDAO {
 }

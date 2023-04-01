@@ -1,4 +1,6 @@
 package lk.ijse.gdse62.hibernet.dao.custom.impl;
 
-public class ReservationDAOImpl {
+import lk.ijse.gdse62.hibernet.dao.custom.ReservationDAO;
+
+public class ReservationDAOImpl implements ReservationDAO {
 }
