@@ -12,6 +12,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
+
 @Entity
 public class Room {
     @Id
