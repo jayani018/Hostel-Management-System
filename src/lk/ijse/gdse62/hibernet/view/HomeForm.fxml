@@ -4,10 +4,9 @@
 <?import javafx.scene.effect.InnerShadow?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="623.0" prefWidth="954.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse62.hibernet.controller.HomeFormController">
+<AnchorPane fx:id="MainPane" prefHeight="623.0" prefWidth="954.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse62.hibernet.controller.HomeFormController">
    <children>
-      <AnchorPane layoutX="-2.0" prefHeight="623.0" prefWidth="271.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+      <AnchorPane fx:id="dashPane" layoutX="-2.0" prefHeight="623.0" prefWidth="271.0" style="-fx-background-color: white; -fx-background-radius: 30;">
          <children>
             <Button layoutX="25.0" layoutY="164.0" mnemonicParsing="false" onAction="#RoomsOnAction" prefHeight="54.0" prefWidth="214.0" style="-fx-background-color: red;" text="Rooms">
                <effect>
