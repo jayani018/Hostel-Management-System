@@ -5,6 +5,7 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 
 public class ManageStudentsFormController {
     public JFXTextField StudentID;
@@ -25,6 +26,7 @@ public class ManageStudentsFormController {
     public JFXTextField BID;
     public JFXTextField ContactNO;
     public JFXTextField Address;
+    public AnchorPane pane;
 
     public void RoomsOnAction(ActionEvent actionEvent) {
     }

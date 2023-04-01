@@ -6,6 +6,7 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 
 public class RegistrationFormController {
     public JFXTextField RegID;
@@ -24,6 +25,8 @@ public class RegistrationFormController {
     public JFXTextField Date;
     public JFXComboBox cmbStudentId;
     public JFXComboBox CombRoomNo;
+    public AnchorPane navPane;
+    public AnchorPane pane;
 
     public void RoomsOnAction(ActionEvent actionEvent) {
     }
