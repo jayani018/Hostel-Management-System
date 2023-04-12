@@ -35,4 +35,16 @@ public class StudentBOImpl implements StudentBO {
                 )
         );
     }
+    public boolean updateStudent(StudentDTO dto){
+        return studentDAO.update(
+                new Student(
+                        dto.getStudent_id(),
+                        dto.getName(),
+                        dto.getAddress(),
+                        dto.getContact_no(),
+                        dto.getDob(),
+                        dto.getGender()
+                )
+        );
+    }
 }
