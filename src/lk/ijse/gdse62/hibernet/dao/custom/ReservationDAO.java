@@ -1,4 +1,7 @@
 package lk.ijse.gdse62.hibernet.dao.custom;
 
-public interface ReservationDAO {
+import lk.ijse.gdse62.hibernet.dao.SQLUtil;
+import lk.ijse.gdse62.hibernet.entity.Reservation;
+
+public interface ReservationDAO extends SQLUtil<Reservation> {
 }
