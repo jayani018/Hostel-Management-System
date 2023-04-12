@@ -22,6 +22,11 @@ public class SessionFactoryConfiguration {
                 .addAnnotatedClass(Reservation.class)
                 .buildSessionFactory();
     }
+
+    public static SessionFactoryConfiguration getInstance() {
+        return null;
+    }
+
     public Session getSession() throws HibernateException {
         // Opens a new Session through the Session Factory & returns the Session created
         return sessionFactory.openSession();
