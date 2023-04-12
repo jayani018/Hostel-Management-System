@@ -21,4 +21,14 @@ public class RoomBOImpl implements RoomBO {
                 )
         );
     }
+    public boolean deleteRoom(RoomDTO dto) {
+        return roomDAO.delete(
+                new Room(
+                        dto.getRoom_type_id(),
+                        dto.getType(),
+                        dto.getKey_money(),
+                        dto.getQty()
+                )
+        );
+    }
 }
