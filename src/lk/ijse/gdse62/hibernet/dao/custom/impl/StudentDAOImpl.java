@@ -24,7 +24,19 @@ public class StudentDAOImpl implements StudentDAO {
     }
     @Override
     public boolean delete(Student entity) {
-        return false;
+        Session session= SessionFactoryConfiguration.getInstance().getSession();
+        Transaction transaction=session.beginTransaction();
+        try {
+            session.delete(entity);
+            transaction.commit();
+            session.close();
+            return true;
+        } catch (Exception e) {
+            transaction.rollback();
+            session.close();
+            e.printStackTrace();
+            return false;
+        }
     }
     @Override
     public boolean update(Student entity) {

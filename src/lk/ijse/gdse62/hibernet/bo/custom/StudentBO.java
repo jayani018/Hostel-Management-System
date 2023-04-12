@@ -5,4 +5,5 @@ import lk.ijse.gdse62.hibernet.dto.StudentDTO;
 
 public interface StudentBO extends SuperBO {
     boolean saveStudent(StudentDTO dto);
+    boolean deleteStudent(StudentDTO dto);
 }
