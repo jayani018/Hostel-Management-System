@@ -19,12 +19,12 @@ public class RoomDAOImpl implements RoomDAO {
                 query.setParameter("add_qty", room.getQty() + entity.getQty());
                 query.setParameter("room_id", entity.getRoom_type_id());
                 boolean isAdded = query.executeUpdate() > 0;
-
             } catch (NullPointerException nullPointerException) {
                 session.save(entity);
             }
             transaction.commit();
             session.close();
+            return true;
         } catch (Exception ex) {
             transaction.rollback();
             session.close();
