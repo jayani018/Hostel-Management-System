@@ -22,7 +22,7 @@ public class BOFactory {
             case STUDENT:
                 return (SuperBO) new StudentBOImpl();
             case ROOM:
-                return (SuperBO) new RoomBOImpl();
+                return  new RoomBOImpl();
             case RESERVATION:
                 return (SuperBO) new ReservationBOImpl();
             default:
