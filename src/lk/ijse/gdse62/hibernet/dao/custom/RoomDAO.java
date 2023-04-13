@@ -4,4 +4,5 @@ import lk.ijse.gdse62.hibernet.dao.SQLUtil;
 import lk.ijse.gdse62.hibernet.entity.Room;
 
 public interface RoomDAO extends SQLUtil<Room> {
+    Room get(String room_type_id);
 }

@@ -5,8 +5,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -21,4 +22,16 @@ public class Student {
     private String contact_no;
     private String dob;
     private String gender;
+
+    @OneToMany(mappedBy = "student", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    List<Reservation> reservationList=new ArrayList<>();
+
+    public Student(String student_id, String name, String address, String contact_no, String dob, String gender) {
+        this.student_id = student_id;
+        this.name = name;
+        this.address = address;
+        this.contact_no = contact_no;
+        this.dob = dob;
+        this.gender = gender;
+    }
 }

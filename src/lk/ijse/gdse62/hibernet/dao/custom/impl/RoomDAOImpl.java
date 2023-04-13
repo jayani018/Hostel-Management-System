@@ -2,10 +2,13 @@ package lk.ijse.gdse62.hibernet.dao.custom.impl;
 
 import lk.ijse.gdse62.hibernet.dao.custom.RoomDAO;
 import lk.ijse.gdse62.hibernet.entity.Room;
+import lk.ijse.gdse62.hibernet.entity.Student;
 import lk.ijse.gdse62.hibernet.util.SessionFactoryConfiguration;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
+
+import java.util.ArrayList;
 
 public class RoomDAOImpl implements RoomDAO {
 
@@ -75,5 +78,14 @@ public class RoomDAOImpl implements RoomDAO {
         }
     }
 
+    @Override
+    public ArrayList<Student> getAllStudent() {
+        return null;
+    }
 
+
+    @Override
+    public Room get(String room_type_id) {
+        return null;
+    }
 }

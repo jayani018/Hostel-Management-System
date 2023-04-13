@@ -17,8 +17,9 @@ public class Reservation {
     @Id
     private String res_idl;
     private String date;
-    private String student_id;
-    private String room_type_id;
+    private Student student;
+    private Room room;
     private String status;
+
 
 }
