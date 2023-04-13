@@ -10,4 +10,22 @@ public class SettingFormController {
 
     public void ChangeOnAction(ActionEvent actionEvent) {
     }
+
+    public void RoomsOnAction(ActionEvent actionEvent) {
+    }
+
+    public void regOnAction(ActionEvent actionEvent) {
+    }
+
+    public void StudentOnAction(ActionEvent actionEvent) {
+    }
+
+    public void LogoutOnAction(ActionEvent actionEvent) {
+    }
+
+    public void PaymentsaOnAction(ActionEvent actionEvent) {
+    }
+
+    public void SettingsOnAction(ActionEvent actionEvent) {
+    }
 }
