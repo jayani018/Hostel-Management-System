@@ -1,4 +1,6 @@
 package lk.ijse.gdse62.hibernet.bo.custom.impl;
 
-public class UserBOImpl {
+import lk.ijse.gdse62.hibernet.bo.custom.UserBO;
+
+public class UserBOImpl implements UserBO {
 }
