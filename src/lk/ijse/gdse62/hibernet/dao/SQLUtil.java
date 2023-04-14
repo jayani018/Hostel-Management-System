@@ -9,5 +9,5 @@ public interface SQLUtil<T> extends SuperDAO {
     boolean delete(T entity);
     boolean update(T entity);
 
-    ArrayList<Student> getAllStudent();
+   // ArrayList<Student> getAllStudent();
 }
