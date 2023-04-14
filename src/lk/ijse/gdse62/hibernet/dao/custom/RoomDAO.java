@@ -7,5 +7,5 @@ import java.util.ArrayList;
 
 public interface RoomDAO extends SQLUtil<Room> {
     Room get(String room_type_id);
-    //ArrayList<Room> getAll();
+    ArrayList<Room> getAll();
 }

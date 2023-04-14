@@ -37,10 +37,10 @@ public class UserDAOImpl implements UserDAO {
         return false;
     }
 
-    @Override
-    public ArrayList<Student> getAllStudent() {
-        return null;
-    }
+//    @Override
+//    public ArrayList<Student> getAllStudent() {
+//        return null;
+//    }
     @Override
     public User get(String userName) {
         Session session = SessionFactoryConfiguration.getInstance().getSession();

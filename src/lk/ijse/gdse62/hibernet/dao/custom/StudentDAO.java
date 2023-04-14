@@ -6,5 +6,5 @@ import lk.ijse.gdse62.hibernet.entity.Student;
 import java.util.ArrayList;
 
 public interface StudentDAO extends SQLUtil<Student> {
-   // ArrayList<Student> getAllStudent();
+    ArrayList<Student> getAllStudent();
 }

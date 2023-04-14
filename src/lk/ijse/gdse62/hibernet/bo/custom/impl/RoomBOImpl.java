@@ -7,6 +7,8 @@ import lk.ijse.gdse62.hibernet.dao.custom.RoomDAO;
 import lk.ijse.gdse62.hibernet.dto.RoomDTO;
 import lk.ijse.gdse62.hibernet.entity.Room;
 
+import java.util.ArrayList;
+
 public class RoomBOImpl implements RoomBO {
     private RoomDAO roomDAO = (RoomDAO) DAOFactory.getInstance().getDAOType(DAOType.ROOM);
 
@@ -40,5 +42,21 @@ public class RoomBOImpl implements RoomBO {
                         dto.getQty()
                 )
         );
+    }
+    @Override
+    public ArrayList<RoomDTO> loadAll() {
+        ArrayList<Room> rooms = roomDAO.getAll();
+        ArrayList<RoomDTO> roomDTOS=new ArrayList<>();
+        for (Room room:rooms) {
+            roomDTOS.add(
+                    new RoomDTO(
+                            room.getRoom_type_id(),
+                            room.getType(),
+                            room.getKey_money(),
+                            room.getQty()
+                    )
+            );
+        }
+        return roomDTOS;
     }
 }
