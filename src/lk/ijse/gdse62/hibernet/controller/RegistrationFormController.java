@@ -51,4 +51,7 @@ public class RegistrationFormController {
 
     public void AddOnAction(ActionEvent actionEvent) {
     }
+
+    public void AddStudentOnAction(ActionEvent actionEvent) {
+    }
 }
