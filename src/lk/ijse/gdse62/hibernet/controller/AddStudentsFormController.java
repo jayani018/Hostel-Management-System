@@ -1,4 +1,4 @@
-package lk.ijse.gdse62.hibernet.view;
+package lk.ijse.gdse62.hibernet.controller;
 
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXDatePicker;

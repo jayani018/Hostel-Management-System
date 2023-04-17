@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="412.0" style="-fx-background-radius: 30; -fx-background-color: #FFEBEE #FFEBEE;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse62.hibernet.view.AddStudentsFormController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="412.0" style="-fx-background-radius: 30; -fx-background-color: #FFEBEE #FFEBEE;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse62.hibernet.controller.AddStudentsFormController">
    <children>
       <AnchorPane fx:id="popUpPane" layoutX="10.0" layoutY="10.0" prefHeight="541.0" prefWidth="378.0" style="-fx-background-radius: 10; -fx-border-radius: 10;">
          <children>
