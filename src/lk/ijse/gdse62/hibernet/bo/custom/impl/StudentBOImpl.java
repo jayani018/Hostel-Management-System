@@ -52,15 +52,15 @@ public class StudentBOImpl implements StudentBO {
     public ArrayList<StudentDTO> getAllStudent(){
         ArrayList<Student> allStudent = studentDAO.getAllStudent();
         ArrayList<StudentDTO> studentDTOS = new ArrayList<>();
-        for (Student s : allStudent) {
+        for (Student student : allStudent) {
             studentDTOS.add(
                     new StudentDTO(
-                            s.getStudent_id(),
-                            s.getName(),
-                            s.getAddress(),
-                            s.getContact_no(),
-                            s.getDob(),
-                            s.getGender()
+                            student.getStudent_id(),
+                            student.getName(),
+                            student.getAddress(),
+                            student.getContact_no(),
+                            student.getDob(),
+                            student.getGender()
                     )
             );
         }

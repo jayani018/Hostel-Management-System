@@ -159,7 +159,7 @@
                   <DropShadow radius="4.75" width="0.0" />
                </effect>
             </Label>
-            <Label fx:id="lblKeyMoneyRM_5467" contentDisplay="CENTER" layoutX="265.0" layoutY="425.0" maxWidth="500.0" onMouseClicked="#RM_1324OnAction" prefHeight="45.0" prefWidth="103.0" style="-fx-background-color: linear-gradient(to bottom, #48bfe3, #46cce5, #4dd8e4, #5de4e2, #72efdd);;" textAlignment="CENTER" textOverrun="CLIP">
+            <Label fx:id="lblKeyMoneyRM_5467" contentDisplay="CENTER" layoutX="265.0" layoutY="425.0" maxWidth="500.0" onMouseClicked="#RM_1324OnAction" prefHeight="45.0" prefWidth="103.0" style="-fx-background-color: linear-gradient(to bottom, #48bfe3, #46cce5, #4dd8e4, #5de4e2, #72efdd);;" text="Food" textAlignment="CENTER" textOverrun="CLIP">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>

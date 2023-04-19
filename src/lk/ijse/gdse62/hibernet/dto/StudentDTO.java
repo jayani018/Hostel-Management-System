@@ -1,5 +1,6 @@
 package lk.ijse.gdse62.hibernet.dto;
 
+import javafx.scene.control.DatePicker;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,10 +17,10 @@ public class StudentDTO {
     private String name;
     private String address;
     private String contact_no;
-    private String dob;
+    private LocalDate dob;
     private String gender;
 
-    public StudentDTO(String id, String name, String address, String contact, LocalDate dob, String gender) {
+    public StudentDTO(String id, String name, String address, String contact, DatePicker dob, String gender) {
 
     }
 }
