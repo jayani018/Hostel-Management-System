@@ -88,4 +88,9 @@ public class RoomDAOImpl implements RoomDAO {
     public Room get(String room_type_id) {
         return null;
     }
+
+    @Override
+    public ArrayList<Room> getAll() {
+        return null;
+    }
 }

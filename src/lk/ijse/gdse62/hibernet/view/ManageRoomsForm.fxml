@@ -76,7 +76,7 @@
       </AnchorPane>
       <AnchorPane fx:id="navPane" layoutX="278.0" prefHeight="633.0" prefWidth="685.0">
          <children>
-            <JFXComboBox fx:id="cmbRoomNo" layoutX="159.0" layoutY="133.0" prefHeight="25.0" prefWidth="135.0" promptText="Room No" />
+            <JFXComboBox fx:id="cmbRoomNo" layoutX="159.0" layoutY="133.0" onAction="#cmbRoomNoOnAction" prefHeight="25.0" prefWidth="135.0" promptText="Room No" />
             <Label fx:id="lblKeyMoney" layoutX="173.0" layoutY="221.0" prefHeight="17.0" prefWidth="135.0" />
             <Label fx:id="lblQTY" layoutX="454.0" layoutY="230.0" prefHeight="17.0" prefWidth="135.0" />
             <Label fx:id="lblRoomType" layoutX="447.0" layoutY="128.0" prefHeight="35.0" prefWidth="135.0" style="-fx-background-color: white;">

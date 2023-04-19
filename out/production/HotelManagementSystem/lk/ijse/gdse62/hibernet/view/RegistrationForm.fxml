@@ -83,6 +83,13 @@
             <JFXComboBox fx:id="CombRoomNo" layoutX="147.0" layoutY="152.0" promptText="Room No" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="navPane" layoutX="279.0" layoutY="10.0" prefHeight="633.0" prefWidth="694.0" />
+      <AnchorPane fx:id="navPane" layoutX="279.0" layoutY="10.0" prefHeight="633.0" prefWidth="694.0">
+         <children>
+            <Button layoutX="292.0" layoutY="139.0" mnemonicParsing="false" onAction="#AddStudentOnAction" prefHeight="17.0" prefWidth="25.0" text="...">
+               <font>
+                  <Font name="Britannic Bold" size="14.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
    </children>
 </AnchorPane>
