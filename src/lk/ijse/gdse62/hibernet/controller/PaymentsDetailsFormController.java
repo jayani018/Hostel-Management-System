@@ -77,8 +77,8 @@ public class PaymentsDetailsFormController implements Initializable {
         Table.getColumns().get(1).setCellValueFactory(new PropertyValueFactory<>("name"));
         Table.getColumns().get(2).setCellValueFactory(new PropertyValueFactory<>("address"));
         Table.getColumns().get(3).setCellValueFactory(new PropertyValueFactory<>("contact_no"));
-        Table.getColumns().get(4).setCellValueFactory(new PropertyValueFactory<>("gender"));
-        Table.getColumns().get(5).setCellValueFactory(new PropertyValueFactory<>("bid"));
+        Table.getColumns().get(4).setCellValueFactory(new PropertyValueFactory<>("bid"));
+        Table.getColumns().get(5).setCellValueFactory(new PropertyValueFactory<>("gender"));
         loadAll();
 
     }
@@ -92,9 +92,8 @@ public class PaymentsDetailsFormController implements Initializable {
                             custom.getName(),
                             custom.getAddress(),
                             custom.getContact_no(),
-                            custom.getGender(),
-                            custom.getDob()
-
+                            custom.getDob(),
+                            custom.getGender()
                     )
             );
         }
