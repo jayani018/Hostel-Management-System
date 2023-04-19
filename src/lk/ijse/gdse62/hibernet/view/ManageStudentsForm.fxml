@@ -53,11 +53,9 @@
       <AnchorPane layoutX="302.0" layoutY="42.0" prefHeight="554.0" prefWidth="624.0" style="-fx-background-color: white; -fx-background-radius: 20;">
          <children>
             <JFXTextField fx:id="StudentID" layoutX="139.0" layoutY="71.0" promptText="Student ID" />
-            <JFXTextField fx:id="IDno" layoutX="126.0" layoutY="151.0" promptText="ID NO" />
             <JFXTextField fx:id="StudentName" layoutX="430.0" layoutY="70.0" promptText="Student Name" />
             <Label layoutX="77.0" layoutY="75.0" text="Student ID:" />
             <Label layoutX="345.0" layoutY="75.0" text="Student Name:" />
-            <Label layoutX="79.0" layoutY="157.0" text="ID No" />
             <Label layoutX="350.0" layoutY="156.0" text="Gender" />
             <JFXButton layoutX="212.0" layoutY="252.0" onAction="#SearchOnAction" style="-fx-background-color: blue;" text="Search" />
             <JFXButton layoutX="484.0" layoutY="252.0" onAction="#UpdateOnAction" style="-fx-background-color: green;" text="Update" />
@@ -70,14 +68,10 @@
                   <TableColumn fx:id="tblName" prefWidth="60.0" text="Name" />
                   <TableColumn fx:id="tblAddress" prefWidth="61.0" text="Address" />
                   <TableColumn fx:id="tblContact" prefWidth="73.0" text="Contact No" />
-                  <TableColumn fx:id="tblID" prefWidth="49.0" text="ID No" />
                   <TableColumn fx:id="tblGender" prefWidth="57.0" text="Gender" />
-                  <TableColumn fx:id="tblUniName" prefWidth="115.0" text="University Name" />
                   <TableColumn fx:id="tbleBID" prefWidth="53.0" text="BID" />
                </columns>
             </TableView>
-            <Label layoutX="77.0" layoutY="196.0" text="University Name:" />
-            <JFXTextField fx:id="UniName" layoutX="171.0" layoutY="188.0" promptText="Univesity Name" />
             <Label layoutX="349.0" layoutY="192.0" text="Date Of Birthday" />
             <Label layoutX="351.0" layoutY="116.0" text="Contact No:" />
             <JFXTextField fx:id="ContactNO" layoutX="425.0" layoutY="112.0" promptText="Contact NO" />

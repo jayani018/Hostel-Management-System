@@ -1,6 +1,5 @@
 package lk.ijse.gdse62.hibernet.view.tm;
 
-import javafx.scene.control.DatePicker;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -21,7 +20,4 @@ public class StudentTM {
     private String gender;
 
 
-    public StudentTM(String studentId, String name, String address, String contact, DatePicker dob, String gender) {
-
-    }
 }
