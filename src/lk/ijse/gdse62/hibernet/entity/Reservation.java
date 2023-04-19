@@ -7,6 +7,7 @@ import lombok.ToString;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.time.LocalDate;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -16,7 +17,7 @@ import javax.persistence.Id;
 public class Reservation {
     @Id
     private String res_idl;
-    private String date;
+    private LocalDate date;
     private Student student;
     private Room room;
     private String status;

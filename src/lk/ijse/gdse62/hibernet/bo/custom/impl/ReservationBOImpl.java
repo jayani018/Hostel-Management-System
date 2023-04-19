@@ -6,6 +6,7 @@ import lk.ijse.gdse62.hibernet.dao.DAOType;
 import lk.ijse.gdse62.hibernet.dao.custom.ReservationDAO;
 import lk.ijse.gdse62.hibernet.dao.custom.RoomDAO;
 import lk.ijse.gdse62.hibernet.dao.custom.StudentDAO;
+import lk.ijse.gdse62.hibernet.dto.CustomDTO;
 import lk.ijse.gdse62.hibernet.dto.ReservationDTO;
 import lk.ijse.gdse62.hibernet.dto.RoomDTO;
 import lk.ijse.gdse62.hibernet.entity.Reservation;
@@ -113,4 +114,8 @@ public class ReservationBOImpl implements ReservationBO {
         return reservationDAO.getLastId();
     }
 
+    @Override
+    public ArrayList<CustomDTO> getAllPendingPaymentStudent() {
+        return null;
+    }
 }

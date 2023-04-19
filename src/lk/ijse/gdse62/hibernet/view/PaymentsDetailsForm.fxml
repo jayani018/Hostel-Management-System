@@ -62,7 +62,6 @@
                   <TableColumn fx:id="tblName" prefWidth="70.0" text="Name" />
                   <TableColumn fx:id="tblAddress" prefWidth="71.0" text="Address" />
                   <TableColumn fx:id="tblContact" prefWidth="100.0" text="Contact No" />
-                  <TableColumn fx:id="tblID" prefWidth="67.0" text="ID No" />
                   <TableColumn fx:id="tblGender" prefWidth="88.0" text="Gender" />
                   <TableColumn fx:id="tbleBID" prefWidth="86.0" text="BID" />
                </columns>

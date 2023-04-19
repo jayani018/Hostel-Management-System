@@ -4,6 +4,7 @@ import lk.ijse.gdse62.hibernet.bo.custom.StudentBO;
 import lk.ijse.gdse62.hibernet.dao.DAOFactory;
 import lk.ijse.gdse62.hibernet.dao.DAOType;
 import lk.ijse.gdse62.hibernet.dao.custom.StudentDAO;
+import lk.ijse.gdse62.hibernet.dto.CustomDTO;
 import lk.ijse.gdse62.hibernet.dto.StudentDTO;
 import lk.ijse.gdse62.hibernet.entity.Student;
 
@@ -65,5 +66,10 @@ public class StudentBOImpl implements StudentBO {
             );
         }
         return studentDTOS;
+    }
+
+    @Override
+    public ArrayList<CustomDTO> getAllPendingPaymentStudent() {
+        return null;
     }
 }
